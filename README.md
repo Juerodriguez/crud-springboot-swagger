@@ -10,3 +10,27 @@ Este es un proyecto de practica para crear una API Rest con Springboot y documen
 4. Una vez corriendo el servicio entrar en el siguiente link para ver la documentación:
 
 http://localhost:9090/swagger-ui/index.html
+
+------
+
+## Extras
+
+Si desea implementar rapidamente una base de datos sin tener que instalar ni configurar un gestor
+le ayudara la herramienta de docker compose con phpMyadmin y Mysql integrado:
+
+Ejecute para iniciarlo:
+```
+docker-compose up -d
+```
+Puede ver phpMyAdmin en:
+
+http://localhost:8080
+
+Para finalizar los servicios ejecute:
+
+```
+docker-compose down
+```
+
+
+
